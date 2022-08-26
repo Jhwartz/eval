@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css"/>
+
+</head>
+<body>
+    <div class="hero">
+		<nav>
+			<h2 class="logo">mR<span>hARRy</span></h2>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Services</a></li>
+				<li><a href="#">Contact us</a></li>
+			</ul>
+			<button type="button">Subscribe</button>
+		</nav>
+	</div>
+    <main>
+        <section>
+            <h2>My first Evaluation</h2>
+            <p>This evaluation was done to measure
+                my understanding of basic html in my 
+                premest course
+            </p>
+        </section>
+        <form>
+            <div class="form-group">
+                <label for="firstname">First name</label>
+                <input type="text" 
+                       name="firstname" 
+                       class="form-control" 
+                       placeholder="please enter first name" />
+                </div>
+
+            <div class="form-group">
+                <label for="lastname">Last name</label>
+                <input type="text" 
+                       name="lastname" 
+                       class="form-control" 
+                       placeholder="please enter last name" />
+                </div>
+            
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" 
+                       name="email" 
+                       class="form-control" 
+                       placeholder="example@gmail.com" />
+                </div>
+            
+            <div class="form-group"></div>
+                <label for="">Password</label>
+                <input type="password" 
+                       name="password" class="form-control" 
+                       placeholder="enter password" />
+                </div>
+            
+            <div class="form-group"></div>
+                <label>Contact</label>
+                <input type="tel" 
+                       name="contact" 
+                       class="form-control" 
+                       placeholder="0336258756" />
+                </div>
+            
+            <div class="form-group">
+                <label for="gender">Select gender</label>
+                    <select name="gender">Gender
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="others">Others</option>
+                        <option value="prefernottosay">Prefer not to say</option>
+                    </select>    
+            </div>
+            
+            <div class="form-group">
+                <label for="remember me">Remember me</label>
+                <input type="checkbox">
+            </div>
+            <br>
+            <button type="submit">Submit</button>
+        </form>
+    </main>
+</body>
+</html>
